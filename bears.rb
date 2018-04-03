@@ -21,4 +21,8 @@ def is_hungry
   return "Yogi isn't hungry just now."
 end
 
+def bear_speaks
+return "ROAR!!!!"
+end
+
 end

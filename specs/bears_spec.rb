@@ -27,6 +27,9 @@ def test_is_hungry
   assert_equal("Yogi is hungry", @bear1.is_hungry)
 end
 
+def test_bear_speaks
+assert_equal("ROAR!!!!", @bear1.bear_speaks)
+end
 
 
 
