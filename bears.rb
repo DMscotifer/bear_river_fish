@@ -1,6 +1,7 @@
 class Bear
 
-attr_accessor :name :stomach
+attr_accessor :name, :stomach
+
 
 def initialize(name, stomach)
   @name = name
@@ -9,4 +10,6 @@ end
 
 def add_fish_to_bear(fish)
   @stomach << "Dory"
+end
+
 end
