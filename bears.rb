@@ -9,7 +9,7 @@ def initialize(name, stomach)
 end
 
 def add_fish_to_bear(fish, river)
-  @stomach << fish
+  @stomach.push(fish)
 end
 
 def is_hungry
