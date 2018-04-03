@@ -20,7 +20,7 @@ def test_add_fish_to_bear__adding_fish
 end
 #
 def test_add_fish_to_bear__decrease_fish_stock
-  assert_equal(199, @river1.fish_stock)
+  assert_equal(199, @river1.lose_fish)
 end
 
 def test_is_hungry
