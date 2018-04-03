@@ -13,7 +13,7 @@ class BearTest < MiniTest::Test
   end
 
 def test_add_fish_to_bear__adding_fish
-  assert_equal(["Dory"], @bear1.add_fish_to_bear(@fish1))
+  assert_equal(["Dory"], @bear1.add_fish_to_bear(@fish1, @river1))
 end
 
 def test_add_fish_to_bear__decrease_fish_stock

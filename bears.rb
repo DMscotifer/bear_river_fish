@@ -10,7 +10,6 @@ end
 
 def add_fish_to_bear(fish, river)
   @stomach << fish
-  @fish_stock.river -= 1
 end
 
 def is_hungry

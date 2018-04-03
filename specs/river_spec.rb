@@ -12,4 +12,8 @@ class RiverTest < MiniTest::Test
 
   end
 
+  def test_lose_fish
+    assert_equal(199, @river1.lose_fish)
+  end
+
 end
