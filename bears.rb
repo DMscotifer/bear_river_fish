@@ -12,4 +12,11 @@ def add_fish_to_bear(fish)
   @stomach << "Dory"
 end
 
+def is_hungry
+  if @stomach == []
+    return "#{name} is hungry"
+  end
+  return "Yogi isn't hungry just now."
+end
+
 end
