@@ -9,6 +9,8 @@ class BearTest < MiniTest::Test
 
   def setup()
     @bear1 = Bear.new("Yogi", [])
+    @river1 = River.new("Amazon", 200)
+    @fish1 = Fish.new("Dory")
 
   end
 

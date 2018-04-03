@@ -7,7 +7,7 @@ def initialize(name, fish_stock)
   @fish_stock = fish_stock
 end
 
-def lose_fish(river)
+def lose_fish()
   @fish_stock -= 1
 end
 
