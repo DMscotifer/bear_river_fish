@@ -15,7 +15,9 @@ def test_add_fish_to_bear__adding_fish
 end
 
 def test_is_hungry
-  assert_equal("Yogi is hungry")
+  assert_equal("Yogi is hungry", @bear1.is_hungry)
 end
+
+
 
 end
