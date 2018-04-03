@@ -1,4 +1,4 @@
-Class River
+class River
 
 attr_accessor :name :fish_stock
 

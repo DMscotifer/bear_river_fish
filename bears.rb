@@ -1,4 +1,4 @@
-Class Bear
+class Bear
 
 attr_accessor :name
 

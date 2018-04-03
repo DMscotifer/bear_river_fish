@@ -1,4 +1,4 @@
- Class Fish
+ class Fish
 
  attr_accessor :name
 
